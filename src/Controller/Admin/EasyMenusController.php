@@ -2,7 +2,7 @@
 namespace EasyMenus\Controller\Admin;
 
 use Cake\ORM\TableRegistry;
-use EasyMenus\Controller\AppController;
+use App\Controller\Admin\AdminsController;
 
 /**
  * EasyMenus Controller
@@ -12,7 +12,7 @@ use EasyMenus\Controller\AppController;
 
 
 
-class EasyMenusController extends AppController
+class EasyMenusController extends AdminsController
 {
     public $paginate = [
         'limit' => 1000,
